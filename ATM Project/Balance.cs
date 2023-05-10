@@ -11,7 +11,7 @@ namespace ATM_Project
         public int _balance { get; set; }
         public bool _isExecuted { get; set; }
 
-        public int BalanceFull
+        public int BalanceFull()
         {
 
             Random rnd = new Random();
